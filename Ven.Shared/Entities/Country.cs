@@ -8,6 +8,6 @@ namespace Ven.Shared.Entities
         public int CountryId { get; set; }
         [Required]
         public string Name { get; set; } = null;
-        public bool Activate { get; set; }
+        //public bool Activate { get; set; }
     }
 }
